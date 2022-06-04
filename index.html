@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KS9&KS10Ballers.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">EVENTS</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <a href="index.html"><img src="images/logo.png"></a>
+      </nav>
+
+      <div class="text-box">
+        <h1>KS-9 & KS-10 Baller's</h1>
+        <p>
+          The strength of the team is each individual member. 
+          The strength of each member is the team. 
+          And To be successful you have to be selfish,<br>or else you never achieve. 
+          once you get to your highest level, then you have to be unselfish. 
+          Stay reachable.<br> Stay in touch. Don't isolate.
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
+
+
+    </section>
+
+    <!-- Events -->
+    <section class="events">
+      <h1>Event's</h1>
+      <p>
+        Always remember the reason why you started, 
+        especially in those moments when self-doubt comes in.<br> 
+        The reason you started will always pull you out of the shadows.
+      </p>
+
+      <div class="row">
+        <div class="events-column">
+          <h3>3on3 Basketball League</h3>
+          <p>
+            This league will feature a 8 week season with teams
+             made up of 4 players competing for a trophy in each division.<br>  
+             All games will be played during the week starting at 6:30 pm.
+          </p>
+        </div>
+
+        <div class="events-column">
+          <h3>Dunk Contest</h3>
+          <p>
+            Slam Dunk Contest is a two-round competition in which five judges 
+            score every dunk on a scale of six to 10. 
+            The highest score a dunk can receive is a 50 while a 30 is the lowest 
+            possible score. All four contestants will get two dunks in the first round.
+          </p>
+        </div>
+
+        <div class="events-column">
+          <h3>3-Point Contest</h3>
+          <p>
+            In this contest, participants attempt to make as many three-point field 
+            goals as possible from five positions behind the three-point line in one 
+            minute. Players begin shooting from one corner of the court, and move from 
+            station to station along the three-point arc until they reach the other 
+            corner.
+          </p>
+        </div>
+
+
+      </div>
+
+
+
+
+    </section>
+
+    <!--Basketball Court-->
+    <section class="court">
+      <h1>KS-9 & KS-10 Basketball Court</h1>
+      <p>
+        The basketball court for me, during a game, is the most peaceful place I can 
+        imagine.<br> On the basketball court, I worry about nothing. When I’m out there, 
+        no one can bother me.
+      </p>
+
+      <div class="row">
+        <div class="court-column">
+          <img src="images/image1.jpg">
+          <div class="layer">
+            <h3>KS-9 & KS-10 Half Court</h3>
+          </div>
+        </div>
+
+        <div class="court-column">
+          <img src="images/image2.jpg">
+          <div class="layer">
+            <h3>KS-9 & KS-10 Half Court</h3>
+          </div>
+        </div>
+
+        <div class="court-column">
+          <img src="images/image3.jpg">
+          <div class="layer">
+            <h3>KS-9 & KS-10 Half Court</h3>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        We learn to make a shell for ourselves when we are young and then spend the<br> rest
+         of our lives hoping for someone to reach inside and touch us. 
+         Just touch us—anything<br> more than that would be too much for us to bear.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+      </div>
+      <p>Web Practice<i class="fa fa-heart-o"></i>by DG</p>
+
+    </section>
+
+
+
+
+
+
+    <!---JavaScript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.left = "0";
+      }
+      function hideMenu(){
+        navLinks.style.left = "-200px";
+      }
+
+    </script>
+
+  </body>
+
+</html>
